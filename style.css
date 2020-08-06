@@ -4,10 +4,7 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Quicksand', sans-serif;
-}
-#move
-{
-	transition-duration: 5s;
+	scroll-behavior: smooth;
 }
 
 *:hover{
@@ -18,12 +15,19 @@ body{
 	background-color: #715147;
 }
 
+.scroll{
+	width: 100%;
+	height: 0px;
+	float: unset;
+	display: inline-block;
+}
+
 #header{
 	width: 100%;
 	background-color: white;
 	height:60px;
 	box-shadow: 0px 2px 4px 1px rgb(0,0,0,0.5);
-	position: fixed;
+	position: sticky;
 }
 
 #brand{
@@ -35,7 +39,8 @@ body{
 }
 #brand:hover{
 	transition-duration: .2s;
-	font-size: 125%;
+	font-size: 140%;
+	margin: 13px 0px 0px 68px;
 }
 
 #tabs{
@@ -75,13 +80,11 @@ body{
 }
 
 #tab_img img:hover{
-	transition-duration: .2s;
-	height: 27px;
+	transition-duration: .1s;
+	margin: -1px -3px 0px 0px;
+	height: 30px;
 }
 
-#space{
-	height: 60px;
-}
 #offer{
 	width: 100%;
 	background-image: url("Images/offer.jpg");
@@ -128,7 +131,7 @@ body{
 }
 
 #dailytag{
-	margin: 50px 0px 5px 0px; 
+	margin: 40px 0px 5px 0px; 
 	padding-top: 20px;
 	display:inline-block;
 	width: 100%;
@@ -229,7 +232,7 @@ body{
 
 
 #specialtag{
-	margin: 50px 0px 5px 0px; 
+	margin: 40px 0px 5px 0px; 
 	padding-top: 20px;
 	display:inline-block;
 	width: 100%;
@@ -300,7 +303,7 @@ body{
 }
 
 .discount{
-
+	text-decoration: line-through;
 }
 
 #o1{
@@ -314,7 +317,7 @@ body{
 }
 
 #abouttag{
-	margin: 50px 0px 5px 0px; 
+	margin: 40px 0px 5px 0px; 
 	padding-top: 20px;
 	display:inline-block;
 	width: 100%;
@@ -332,7 +335,7 @@ body{
 }
 
 #contacttag{
-	margin: 50px 0px 5px 0px; 
+	margin: 40px 0px 5px 0px; 
 	padding-top: 20px;
 	display:inline-block;
 	width: 100%;
