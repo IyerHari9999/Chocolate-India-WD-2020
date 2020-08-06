@@ -90,6 +90,7 @@ body{
 	text-align: center;
 	padding: 40px;
 	background-size: cover;
+	border-bottom: solid 5px white;
 }
 
 #offer_name{
@@ -126,23 +127,43 @@ body{
 	color: white;
 }
 
+#dailytag{
+	margin: 50px 0px 5px 0px; 
+	padding-top: 20px;
+	display:inline-block;
+	width: 100%;
+	background-image: url("Images/offer.jpg");
+	border-top: solid 3px white;
+	border-bottom: solid 3px white;
+	background-position: center;
+	height: 100px;
+	text-align: center;
+	background-size: cover;
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 200%;
+	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
+}
+
 #selects{
 	margin-top: 20px;
 	margin-left:auto;
 	margin-right: auto;
-	width: 80%;
+	width: 85%;
 }
 
 .select{
+	box-sizing: border-box;
 	text-align: center;
-	width: 31%;
+	width: 31.3%;
 	float: left;
 	height: 400px;
-	margin: 10px 10px 10px 10px;
+	margin: 25px 10px 25px 10px;
 	border-radius: 7px;
 	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
 	background-position: center;
-	background-size: cover; 
+	background-size: cover;
+	border: solid 3px white; 
 }
 
 .select:hover{
@@ -204,4 +225,126 @@ body{
 }
 #s9{
 	background-image: url("Images/toppings.jpg");
+}
+
+
+#specialtag{
+	margin: 50px 0px 5px 0px; 
+	padding-top: 20px;
+	display:inline-block;
+	width: 100%;
+	background-image: url("Images/offer.jpg");
+	border-top: solid 3px gold;
+	border-bottom: solid 3px gold;
+	background-position: center;
+	height: 120px;
+	text-align: center;
+	background-size: cover;
+	font-family: 'Lobster', cursive;
+	color: gold;
+	font-size: 250%;
+	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
+
+}
+
+#specials{
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.special{
+	box-sizing: border-box;
+	text-align: center;
+	width: 31.3%;
+	float: left;
+	height: 400px;
+	margin: 10px 10px 10px 10px;
+	border-radius: 7px;
+	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
+	border: solid 3px gold;
+	background-position: center;
+	background-size: cover; 
+}
+
+.special:hover{
+	transition-duration: .1s;
+	box-shadow: 0px 5px 7px 0px rgb(0,0,0,.8);
+
+}
+.gold{
+	color: gold;
+}
+
+.buttonp{
+	margin-top: 20px;
+	padding: 5px 5px 10px 5px;
+	border-radius: 20px;
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	font-family: 'Lobster', cursive;
+	font-size: 120%;
+	background-color: gold;
+	color: black;
+	box-shadow: 0px 2px 3px rgb(0,0,0,0.3);
+}
+.buttonp:hover{
+	color: gold; 
+	background-color: black;
+}
+
+.mt{
+	padding-top: 70px;
+}
+
+.discount{
+
+}
+
+#o1{
+	background-image: url("Images/low.jpg");
+}
+#o2{
+	background-image: url("Images/mid.jpg");
+}
+#o3{
+	background-image: url("Images/high.jpg");
+}
+
+#abouttag{
+	margin: 50px 0px 5px 0px; 
+	padding-top: 20px;
+	display:inline-block;
+	width: 100%;
+	background-image: url("Images/offer.jpg");
+	border-top: solid 3px white;
+	border-bottom: solid 3px white;
+	background-position: center;
+	height: 100px;
+	text-align: center;
+	background-size: cover;
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 200%;
+	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
+}
+
+#contacttag{
+	margin: 50px 0px 5px 0px; 
+	padding-top: 20px;
+	display:inline-block;
+	width: 100%;
+	background-image: url("Images/offer.jpg");
+	border-top: solid 3px white;
+	border-bottom: solid 3px white;
+	background-position: center;
+	height: 100px;
+	text-align: center;
+	background-size: cover;
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-size: 200%;
+	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
 }
