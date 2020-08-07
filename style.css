@@ -17,7 +17,7 @@ body{
 
 .scroll{
 	width: 100%;
-	height: 0px;
+	height: 27px;
 	float: unset;
 	display: inline-block;
 }
@@ -27,7 +27,7 @@ body{
 	background-color: white;
 	height:60px;
 	box-shadow: 0px 2px 4px 1px rgb(0,0,0,0.5);
-	position: sticky;
+	position: fixed;
 }
 
 #brand{
@@ -105,11 +105,50 @@ body{
 
 .offer_details{
 	filter:none;
-	opacity: 85%;
 	color: white;
 	font-size: 120%;
 	font-weight: 600;
 }
+
+
+.info{
+	margin:15px;
+	background-color: white;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	font-family: 'Lobster', cursive;
+	font-weight: bolder;
+	padding: 5px;
+	color: #715147;
+	font-size: 120%;
+}
+
+.info:hover{
+	background-color: #715147;
+	color: white;
+}
+
+.infop{
+	margin:15px;
+	background-color: gold;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 30px;
+	font-family: 'Lobster', cursive;
+	font-weight: bolder;
+	padding: 5px;
+	color: black;
+	font-size: 120%;
+}
+
+.infop:hover{
+	background-color: black;
+	color: gold;
+}
+
 
 .button{
 	margin-top: 20px;
@@ -124,6 +163,7 @@ body{
 	color: #715147; 
 	box-shadow: 0px 2px 3px rgb(0,0,0,0.3);
 }
+
 
 .button:hover{
 	background-color: #715147;
@@ -171,7 +211,7 @@ body{
 
 .select:hover{
 	transition-duration: .1s;
-	box-shadow: 0px 5px 7px 0px rgb(0,0,0,.8);
+	box-shadow: 0px 7px 10px 3px rgb(0,0,0,.8);
 
 }
 
@@ -182,11 +222,6 @@ body{
 	color: white;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bolder;
-}
-
-.details:hover{
-	transition-duration: .2s;
-	opacity: 30%;
 }
 
 .name{
@@ -233,7 +268,7 @@ body{
 
 #specialtag{
 	margin: 40px 0px 5px 0px; 
-	padding-top: 20px;
+	padding-top: 30px;
 	display:inline-block;
 	width: 100%;
 	background-image: url("Images/offer.jpg");
@@ -245,7 +280,7 @@ body{
 	background-size: cover;
 	font-family: 'Lobster', cursive;
 	color: gold;
-	font-size: 250%;
+	font-size: 200%;
 	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
 
 }
@@ -273,7 +308,7 @@ body{
 
 .special:hover{
 	transition-duration: .1s;
-	box-shadow: 0px 5px 7px 0px rgb(0,0,0,.8);
+	box-shadow: 0px 7px 10px 3px rgb(0,0,0,.8);
 
 }
 .gold{
@@ -350,4 +385,18 @@ body{
 	color: white;
 	font-size: 200%;
 	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
+}
+
+#abouts{
+	float: unset;
+	width: 100%;
+	height: 500px;
+	display: inline-block;
+}
+
+#contacts{
+	float: unset;
+	width: 100%;
+	height: 500px;
+	display: inline-block;
 }
