@@ -189,10 +189,11 @@ body{
 }
 
 #selects{
+	align-items: center;
 	margin-top: 20px;
 	margin-left:auto;
 	margin-right: auto;
-	width: 85%;
+	width: 90%;
 }
 
 .select{
@@ -200,8 +201,9 @@ body{
 	text-align: center;
 	width: 31.3%;
 	float: left;
-	height: 400px;
-	margin: 25px 10px 25px 10px;
+	height: 450px;
+	margin: 10px 7px 10px 7px;
+	margin-left: 14px;
 	border-radius: 7px;
 	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
 	background-position: center;
@@ -289,7 +291,7 @@ body{
 	margin-top: 20px;
 	margin-left:auto;
 	margin-right: auto;
-	width: 85%;
+	width: 90%;
 }
 
 .special{
@@ -297,8 +299,8 @@ body{
 	text-align: center;
 	width: 31.3%;
 	float: left;
-	height: 400px;
-	margin: 10px 10px 10px 10px;
+	height: 450px;
+	margin: 10px 7px 10px 7px;
 	border-radius: 7px;
 	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
 	border: solid 3px gold;
@@ -388,34 +390,36 @@ body{
 }
 
 #abouts{
+	text-align: center;
 	float: unset;
 	width: 100%;
-	height: 500px;
 	display: inline-block;
 }
 
+#abouts iframe{
+	margin-top: 10px;
+	width: 950px; 
+	height: 425px;
+	border: solid 3px white; 
+}
+
 #contacts{
+	margin-top: 20px; 
 	float: unset;
 	width: 100%;
 	height: 450px;
 	display: inline-block;
+	background-color: #5A4038;
 }
 
 #map{
-	margin-top: 10px; 
-	width: 100%;
-	height: 350px;
+	margin: 20px;
+	width: 60%;
+	height: 400px;
 	text-align: center;
-
-}
-
-#map img{
-	border: solid 5px white;
-	margin-right: auto;
-	margin-left: auto;
-	width: 1000px;
-	height: 350px;
-	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
+	background-image: url("Images/map.jpg");
+	background-size: cover;
+	border: solid 3px white; 
 }
 
 #contact-details{
@@ -428,5 +432,5 @@ body{
 	height: 40px;
 	color: #715147;
 	background-color: white;
-	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.4);
+	box-shadow: 0px -1px 2px 0px rgb(0,0,0,.3);
 }
