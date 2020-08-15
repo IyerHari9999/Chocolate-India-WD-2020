@@ -189,7 +189,7 @@ body{
 }
 
 #selects{
-	align-items: center;
+	text-align: center;
 	margin-top: 20px;
 	margin-left:auto;
 	margin-right: auto;
@@ -199,11 +199,11 @@ body{
 .select{
 	box-sizing: border-box;
 	text-align: center;
+	display: inline-block;
 	width: 31.3%;
-	float: left;
+	float: unset;
 	height: 450px;
 	margin: 10px 7px 10px 7px;
-	margin-left: 14px;
 	border-radius: 7px;
 	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
 	background-position: center;
@@ -288,6 +288,7 @@ body{
 }
 
 #specials{
+	text-align: center;
 	margin-top: 20px;
 	margin-left:auto;
 	margin-right: auto;
@@ -297,15 +298,16 @@ body{
 .special{
 	box-sizing: border-box;
 	text-align: center;
+	display: inline-block;
 	width: 31.3%;
-	float: left;
+	float: unset;
 	height: 450px;
 	margin: 10px 7px 10px 7px;
 	border-radius: 7px;
 	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
-	border: solid 3px gold;
 	background-position: center;
-	background-size: cover; 
+	background-size: cover;
+	border: solid 3px gold;
 }
 
 .special:hover{
