@@ -397,6 +397,36 @@ body{
 #contacts{
 	float: unset;
 	width: 100%;
-	height: 500px;
+	height: 450px;
 	display: inline-block;
+}
+
+#map{
+	margin-top: 10px; 
+	width: 100%;
+	height: 350px;
+	text-align: center;
+
+}
+
+#map img{
+	border: solid 5px white;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+	height: 350px;
+	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.6);
+}
+
+#contact-details{
+	text-align: center;
+	font-size: 80%;
+	font-weight: 700;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+	height: 40px;
+	color: #715147;
+	background-color: white;
+	box-shadow: 0px 3px 4px 0px rgb(0,0,0,.4);
 }
