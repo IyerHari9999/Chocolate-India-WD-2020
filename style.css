@@ -17,7 +17,7 @@ body{
 
 .scroll{
 	width: 100%;
-	height: 27px;
+	height: 20px;
 	float: unset;
 	display: inline-block;
 }
@@ -399,13 +399,13 @@ body{
 }
 
 #abouts iframe{
-	margin-top: 10px;
-	width: 950px; 
-	height: 425px;
+	margin-top: 20px;
+	width: 60%; 
+	height: 450px;
 	border: solid 3px white; 
 }
 
-#contacts{
+#about-main{
 	margin-top: 20px; 
 	float: unset;
 	width: 100%;
@@ -414,15 +414,78 @@ body{
 	background-color: #5A4038;
 }
 
-#map{
-	margin: 20px;
-	width: 60%;
-	height: 400px;
-	text-align: center;
-	background-image: url("Images/map.jpg");
-	background-size: cover;
-	border: solid 3px white; 
+#about-img{
+	width: 30%;
 }
+
+#about-img img{
+	margin: 100px;
+	border: solid 4px white; 
+	border-radius: 10px;
+}
+#contacts{
+	margin-top: 20px; 
+	float: unset;
+	width: 100%;
+	height: 500px;
+	display: inline-block;
+	background-color: #5A4038;
+}
+
+#forms{
+	text-align: center;
+}
+form{
+	margin-top: 30px;
+	display: inline-block;
+	width: 70%;
+
+}
+label{
+	margin-top: 10px;
+	font-size: 120%;
+	color: white;
+	font-weight: 600;
+}
+
+button{
+	font-size: 110%;
+	padding: 10px;
+	border-radius: 40px;
+	background-color: white;
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	color: #715147; 
+	box-shadow: 0px 2px 3px rgb(0,0,0,0.3);
+	border: none;
+	font-weight: 700;
+}
+
+
+button:hover{
+	background-color: #715147;
+	color: white;
+}
+
+.input{
+	margin-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+	border: none;
+	border-radius: 50px;
+	width: 40%;
+	height: 40px;
+	font-size: 120%;
+}
+
+.check{
+  height: 25px;
+  width: 25px;
+  border: none;
+}
+
 
 #contact-details{
 	text-align: center;
