@@ -12,7 +12,7 @@
 }
 
 *:hover{
-	transition: 0.2s;
+	transition: 0.4s;
 }
 
 body{
@@ -65,7 +65,7 @@ body{
 }
 
 .tab:hover{
-	transition-duration: .2s;
+	transition-duration: .5s;
 	color: white;
 	background-color: #715147;
 }
@@ -406,7 +406,8 @@ body{
 	margin-top: 20px;
 	width: 60%; 
 	height: 450px;
-	border: solid 3px white; 
+	border: solid 4px white;
+	border-radius: 15px;
 }
 
 #about-main{
@@ -551,4 +552,11 @@ textarea:focus, input:focus{
 .about-det h4::-webkit-scrollbar-thumb:hover {
   background: darkgrey;
   border-radius: 20px;
+}
+
+h4{
+	font-size: 120%;
+	color: white;
+	text-align: center;
+	padding: 20px;
 }
