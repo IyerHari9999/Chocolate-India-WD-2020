@@ -5,8 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<script src="javascript.js"></script>
 	<link rel="stylesheet" href="style.css">
-	<script>
+	<style type="text/css">
+		.mySlides {display:none;}
+	</style>
+	<script >
 		function validate()
 		{
 			fn=document.getElementById("fn");
@@ -46,7 +50,8 @@
 		    	document.getElementById("num").value="";
 		    	document.getElementById("terms").checked=false;
 		    }
-		
+
+
 		}
 
 	</script>
@@ -81,6 +86,38 @@
 		<div class=offer_details>Buy our Special Mid Range Packages worth 5000 INR and get a Cash Back upto 15%</div>
 		<div class=offer_details>Buy our Premium Chocolate Packages above 7500 INR and get a Cash Back upto 18%</div>
 		<a href="#specialscroll"><div class=button>Purchase</div></a>
+	</div>
+
+	<div style="text-align: center">
+	<div class="select" style="width: 90%; margin-top: 40px; overflow-y: hidden;">
+	    <img class="mySlides" src="Images/2.jpg" style="width:100%">
+	    <img class="mySlides"  src="Images/3.jpg" style="width:100%">
+	    <img class="mySlides"  src="Images/4.jpg" style="width:100%">
+	</div>
+</div>
+	<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}    
+	  x[myIndex-1].style.display = "block";  
+	  setTimeout(carousel, 2000); // Change image every 2 seconds
+	}
+</script>
+	<br>
+
+	<!-- The dots/circles -->
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span>
+	  <span class="dot" onclick="currentSlide(2)"></span>
+	  <span class="dot" onclick="currentSlide(3)"></span>
 	</div>
 
 	<div id="dailytag">Daily Deals</div>
